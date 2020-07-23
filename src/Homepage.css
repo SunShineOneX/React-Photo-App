@@ -6,10 +6,31 @@ body {
 
 .senna-logo {
     text-align: center;
-    width: 50vw;
+    width: 40vw;
 }
 
-.senna-container {
+#senna-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 2.5vh;
+
+}
+
+.get-started-link, h1 {
+    font-size: 60px;
 }

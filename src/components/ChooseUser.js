@@ -11,7 +11,7 @@ function ChooseUser() {
     <Router>
         <div ><h1>Hello ChooseUser!</h1>
         <Switch>
-        <Route path="/" component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/UserJeff" component={UserJeff} />
         <Route path="/UserSteph" component={UserSteph} />
         </Switch>
