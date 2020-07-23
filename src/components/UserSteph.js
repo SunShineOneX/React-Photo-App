@@ -8,4 +8,4 @@ function UserSteph() {
   );
 }
 
-export default UserSteph!;
+export default UserSteph;
