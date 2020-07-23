@@ -3,7 +3,8 @@ import "../App.css"
 
 function UserJeff() {
   return (
-    <div ><h1>Hello Navbar!</h1>
+    <div >
+        <h1>Hello Jeff!</h1>
     </div>
   );
 }
