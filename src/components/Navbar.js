@@ -1,6 +1,7 @@
-import "../index.css"
+import "../Homepage.css"
 import Home from "./Home";
 import ChooseUser from "./ChooseUser";
+import UserProfile from "./UserProfile"
 import Bookmarks from "./Bookmarks"
 import { BrowserRouter as Router, Switch, Route, Link } from  "react-router-dom";
 import React, { Component } from 'react'
@@ -20,16 +21,16 @@ class Navbar extends Component {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link"><Link to="/ChooseUser">Choose User</Link></a>
         <a class="nav-item nav-link"><Link to="/">Home</Link></a>
-        <a class="nav-item nav-link">User Profile</a>
+        <a class="nav-item nav-link"><Link to="/UserProfile">User Profile</Link></a>
         <a class="nav-item nav-link"><Link to="/Bookmarks">Bookmarks</Link></a>
+        <a class="nav-item nav-link" id="logout">Logout</a>
       </div>
     </div>
   </nav>
   <     Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/ChooseUser" component={ChooseUser} />
+          <Route path="/UserProfile" component={UserProfile} />
           <Route path="/Bookmarks" component={Bookmarks} />
         </Switch>
       </div>
