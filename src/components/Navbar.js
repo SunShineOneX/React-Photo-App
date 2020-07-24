@@ -47,7 +47,7 @@ class Navbar extends Component {
               <a class="nav-link"><Link to="/Bookmarks">Bookmarks</Link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><Link to="/Photogrid">My photos</Link></a>
+              <a class="nav-link"><Link to="/Photogrid">Photos</Link></a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">

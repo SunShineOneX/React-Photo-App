@@ -1,15 +1,15 @@
 import React from 'react'
-
+import "../Homepage.css";
 function Photogrid() {
     return (
         <div>
             <h1>PHOTOS</h1>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         1 of 3
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-6">
                         2 of 3
                     </div>
                     <div class="col">
