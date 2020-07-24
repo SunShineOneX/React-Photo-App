@@ -16,7 +16,7 @@ function Home() {
                 <div className="container">
                     
                     <Route path="/ChooseUser" component={ChooseUser} />
-                    <h1 className="get-started-link"><Link to="/ChooseUser">Get Started</Link></h1>
+                    {/* <h1 className="get-started-link"><Link to="/ChooseUser">Get Started</Link></h1> */}
                     <Switch>
                     <Route path="/ChooseUsers">
                     <ChooseUser />
