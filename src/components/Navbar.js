@@ -15,20 +15,6 @@ class Navbar extends Component {
     return (
       <Router>
       <div >
-        {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand">Senna</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link"><Link to="/">Home</Link></a>
-        <a class="nav-item nav-link"><Link to="/UserProfile">User Profile</Link></a>
-        <a class="nav-item nav-link"><Link to="/Bookmarks">Bookmarks</Link></a>
-        <a class="nav-item nav-link ml-auto" id="logout">Logout</a>
-      </div>
-    </div>
-  </nav> */}
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="">Senna</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
