@@ -12,7 +12,7 @@ function Home() {
         
             <div>
                 <div className="container-fluid" id="senna-container">
-                    <img src={require("../assets/senna-logo-white-transparent.png")}className="senna-logo" alt="" />
+                    <img src={require("../assets/senna-logo-white-transparent-cropped.png")}className="senna-logo" alt="" />
                 </div>
                 <div className="container-fluid" id="home-photo-grid">
                   
