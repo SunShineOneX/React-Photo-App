@@ -31,7 +31,7 @@ function Home() {
               />
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          {/* <div class="col-lg-4 col-md-6 col-sm-12">
             <div id="card" class="card">
               <img class="card-img-top img-fluid" src={require("../assets/red-console.jpg")} />
             </div>
@@ -40,7 +40,7 @@ function Home() {
             <div id="card" class="card">
               <img class="card-img-top img-fluid" src= {require("../assets/pretty-kitty.jpg")} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
