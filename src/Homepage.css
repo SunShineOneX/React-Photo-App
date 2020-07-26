@@ -65,10 +65,15 @@ body {
 .profile-pic {
     padding-top: 5vh;
     width: 20vw;
-    border-radius: 49%;
+    border-radius: 50%;
 }
 
 .profile-h1 {
+    font-size: 5em;
     padding-top: 3vh;
     font-family: 'Cinzel Decorative', cursive;
+}
+
+#card {
+    border: black solid;
 }
