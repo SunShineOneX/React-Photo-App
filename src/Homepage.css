@@ -64,6 +64,7 @@ body {
 
 .profile-pic {
     padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 20vw;
     border-radius: 50%;
 }
@@ -76,4 +77,8 @@ body {
 
 #card {
     border: black solid;
+}
+
+.card-images {
+    object-fit: cover;
 }
