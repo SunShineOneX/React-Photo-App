@@ -24,7 +24,12 @@ function Home() {
       <div class="card-deck">
         <div class="row">
           <div class="col-lg-4">
-            <img src={require("../assets/life-hunter.jpg")}
+            <div id="card" class="card">
+              <img
+                class="card-img-top img-fluid"
+                src={require("../assets/life-hunter.jpg")}
+              />
+            </div>
           </div>
         </div>
       </div>
