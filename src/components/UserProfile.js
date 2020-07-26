@@ -12,12 +12,17 @@ class UserProfile extends Component {
         <div class="row">
           <div class="col-lg-4">
             <div id="card" class="card">
-                <img class="card-images" src={require("../assets/city.jpeg")} alt=""/>
+                <img class="card-images" src={require("../assets/city.jpg")} alt=""/>
             </div>
           </div>
           <div class="col-lg-4">
             <div id="card" class="card">
                 <img class="card-images" src={require("../assets/laptop.jpeg")} alt=""/>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div id="card" class="card">
+                <img class="card-images" src={require("../assets/coffee.jpg")} alt=""/>
             </div>
           </div>
           
