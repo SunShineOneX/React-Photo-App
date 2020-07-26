@@ -32,7 +32,14 @@ function Home() {
             </div>
           </div>
           <div class="col-lg-4">
-            
+            <div id="card" class="card">
+              <img class="card-img-top img-fluid" src={require("../assets/red-console.jpg")} />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div id="card" class="card">
+              <img class="card-img-top img-fluid" src= {require("../assets/pretty-kitty.jpg")} />
+            </div>
           </div>
         </div>
       </div>
