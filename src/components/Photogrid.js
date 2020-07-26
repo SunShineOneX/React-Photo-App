@@ -6,17 +6,17 @@ function Photogrid() {
             <h1>PHOTOS</h1>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col" id="image-col">
                         1 of 3
-                        <img class="card-images" src={require("../assets/bio_and_beyond.jpeg")}className="card-img-top frag" alt=""></img>
+                        <img class="card-images" src={require("../assets/image-1.jpeg")} alt=""></img>
                     </div>
-                    <div class="col-6">
+                    <div class="col" id="image-col">
                         2 of 3
-                        <img class="card-images" src={require("../assets/bio_and_beyond.jpeg")}className="card-img-top frag" alt=""></img>
+                        <img class="card-images" src={require("../assets/image-2.jpeg")} alt=""></img>
                     </div>
-                    <div class="col">
+                    <div class="col" id="image-col">
                         3 of 3
-                        <img class="card-images" src={require("../assets/bio_and_beyond.jpeg")}className="card-img-top frag" alt=""></img>
+                        <img class="card-images" src={require("../assets/image-3.jpeg")} alt=""></img>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 body {
     background: url("./assets/senna-bg.png");
     background: cover;
-    overflow-y: hidden;
+    text-align: center;
+    color:white;
 }
 
 .senna-logo {
@@ -33,4 +34,30 @@ body {
 
 .get-started-link, h1 {
     font-size: 60px;
+    padding-top: 0;
+}
+
+
+.card-images {
+    width: 20vh;
+    height: 200px;
+    object-fit: contain;
+}
+
+#image-col {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+}
+
+#image-col im{
+
+}
+
+#home-photo-grid {
+    width: 70vw;
+    height: 40vh;
+    background-color: white;
+    padding-bottom: 5vh;
 }

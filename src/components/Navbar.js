@@ -43,7 +43,7 @@ class Navbar extends Component {
             </ul>
         </div>
       </nav>
-  <     Switch>
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/UserProfile" component={UserProfile} />
           <Route path="/Bookmarks" component={Bookmarks} />
