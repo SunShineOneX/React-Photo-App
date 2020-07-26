@@ -77,8 +77,20 @@ body {
 
 #card {
     border: black solid;
+    object-fit: cover;
+}
+
+.card-deck {
+    justify-content: center;
+    padding-top: 3vh;
+    margin-bottom: 0;
+    object-fit: cover;
 }
 
 .card-images {
     object-fit: cover;
+}
+
+.col-lg-4 {
+    padding: 0;
 }
