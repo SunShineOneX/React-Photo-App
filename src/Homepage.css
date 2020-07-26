@@ -51,9 +51,7 @@ body {
 
 }
 
-#image-col im{
 
-}
 
 #home-photo-grid {
     width: 80vw;
@@ -68,4 +66,9 @@ body {
     padding-top: 5vh;
     width: 20vw;
     border-radius: 49%;
+}
+
+.profile-h1 {
+    padding-top: 3vh;
+    font-family: 'Cinzel Decorative', cursive;
 }
