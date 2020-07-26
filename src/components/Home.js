@@ -23,7 +23,7 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div id="card" class="card">
               <img
                 class="card-img-top img-fluid"
@@ -31,12 +31,12 @@ function Home() {
               />
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div id="card" class="card">
               <img class="card-img-top img-fluid" src={require("../assets/red-console.jpg")} />
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div id="card" class="card">
               <img class="card-img-top img-fluid" src= {require("../assets/pretty-kitty.jpg")} />
             </div>
