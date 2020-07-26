@@ -6,11 +6,44 @@ import Photogrid from "./Photogrid";
 import { BrowserRouter as Router, Switch, Route, Link } from  "react-router-dom";
 import React, { Component } from 'react';
 
-
-
+let switchLogin = document.getElementById("log-out");
+let logout = "login"
 
 
 class Navbar extends Component {
+
+  constructor(props) {
+    super(props);
+      this.state = {
+        userLoggedIn: true,
+      }
+    
+  }
+
+  onUserLogin = (event) => {
+    switchLogin.innerHTML= logout;
+    event.preventDefault()
+    this.setState= ({
+      userLoggedIn: false 
+      
+    })
+    if (this.state.userLoggedIn === false) {
+      switchLogin.innerHTML="Login";
+    }
+    
+  }
+
+//   function nextSongCounter() {
+//     trackIndex++;
+//     console.log(trackIndex);
+//     console.log(stations[stationsIndex].songs.length);
+//     if (trackIndex > stations[stationsIndex].songs.length - 1) {
+//         trackIndex = 0;
+//     }
+// };
+
+
+  
   render() {
     return (
       <Router>
@@ -38,7 +71,7 @@ class Navbar extends Component {
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Logout</a>
+              <a class="nav-link" id="log-out"href="" value={this.state.userLoggedIn} onChange={this.onUserLogin}>Logout</a>
             </li>
             </ul>
         </div>
