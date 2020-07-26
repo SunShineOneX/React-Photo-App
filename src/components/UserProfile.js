@@ -33,21 +33,21 @@ class UserProfile extends Component {
                     <div class="col-lg-4">
                         <div id="card" class="card">
                             
-                            <img class="card-images" src={require("../assets/coffee.jpg")}className="card-img-top frag" alt=""></img>
+                            <img class="card-img-top img-fluid" src={require("../assets/coffee.jpg")}className="card-img-top frag" alt=""></img>
                            
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div id="card" class="card">
                             
-                            <img class="card-images" src={require("../assets/city.jpg")}className="card-img-top frag" alt=""></img>
+                            <img class="card-img-top img-fluid" src={require("../assets/city.jpg")}className="card-img-top frag" alt=""></img>
                             
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div id="card" class="card">
                             
-                            <img class="card-images" src={require("../assets/laptop.jpeg")}className="card-img-top frag" alt=""></img>
+                            <img class="card-img-top img-fluid" src={require("../assets/laptop.jpeg")}className="card-img-top frag" alt=""></img>
                             
                         </div>
                     </div>
