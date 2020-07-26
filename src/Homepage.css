@@ -103,3 +103,14 @@ body {
     width: 20vw;
     padding-bottom: 2vh;
 }
+
+.col-lg {
+    padding: 1vh 15vh 3vh 15vh;
+    object-fit: cover;
+    width: 60vw;
+    height: 40vh;
+}
+
+.card-img-home {
+    padding-bottom: 5vh;
+}

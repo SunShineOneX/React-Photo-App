@@ -14,23 +14,30 @@ import UserSteph from "./UserSteph";
 function Home() {
   return (
     <div className="container-fluid">
-      <div className="container-fluid" id="senna-container">
+      <div className="container" id="senna-container">
         <img
           src={require("../assets/senna-logo-white-transparent-cropped.png")}
           className="senna-logo"
           alt=""
         />
       </div>
-      <div class="card-deck">
+
+
+
+
+
+
+
+      
+      {/* <div class="card-deck">
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg">
             <div id="card" class="card">
               <img
-                class="card-img-top img-fluid"
-                src={require("../assets/life-hunter.jpg")}
-              />
-            </div>
-          </div>
+                class="card-img-home img-fluid"
+                src={require("../assets/life-hunter.jpg")} />
+              </div>
+              </div> */}
           {/* <div class="col-lg-4 col-md-6 col-sm-12">
             <div id="card" class="card">
               <img class="card-img-top img-fluid" src={require("../assets/red-console.jpg")} />
@@ -41,8 +48,8 @@ function Home() {
               <img class="card-img-top img-fluid" src= {require("../assets/pretty-kitty.jpg")} />
             </div>
           </div> */}
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </div>
   );
 }
