@@ -56,9 +56,10 @@ body {
 }
 
 #home-photo-grid {
-    width: 70vw;
+    width: 80vw;
     height: 60vh;
     background-color: white;
-    padding-bottom: 5vh;
+    padding: 10vh 0 5vh 0;
     margin-bottom: 5vh;
+    margin-top: 6vh;
 }
