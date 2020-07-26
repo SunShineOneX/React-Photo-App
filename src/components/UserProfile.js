@@ -5,7 +5,7 @@ class UserProfile extends Component {
     return (
       <div className="container-fluid">
         <div className="container">
-          <h1 className="profile-h1">My profile</h1>
+          <h1 className="profile-h1">Profile</h1>
         </div>
         <img
           className="profile-pic"
