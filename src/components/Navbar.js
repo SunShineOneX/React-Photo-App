@@ -8,39 +8,45 @@ import React, { Component } from 'react';
 
 let switchLogin = document.getElementById("log-out");
 let logout = "login"
-
+// let logoutIndex = 0;
 
 class Navbar extends Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
       this.state = {
         userLoggedIn: true,
+        logoutIndex: 0,
       }
     
   }
 
-  onUserLogin = (event) => {
-    switchLogin.innerHTML= logout;
-    event.preventDefault()
-    this.setState= ({
-      userLoggedIn: false 
-      
-    })
-    if (this.state.userLoggedIn === false) {
-      switchLogin.innerHTML="Login";
-    }
+  // switchUserLogin = (event) => {
+  //   // switchLogin.innerHTML= "Login";
+  //   event.preventDefault()
+  //   this.setState= ({
+  //     userLoggedIn: false 
+  //   })
+  //   // if (this.state.userLoggedIn === false) {
+  //   //   switchLogin.innerHTML={logout};
+  //   // }
     
+  // }
+
+switchUserLogin = (event) => {
+  if (this.state.logoutIndex === 0) {
+    event.preventDefault()
+    this.setState({
+     userLoggedIn: false,
+     logoutIndex: 1
+    })
+  } else if (this.state.logoutIndex === 1)
+    this.setState({
+      userLoggedIn: true,
+      logoutIndex: 0,
+    })
   }
 
-//   function nextSongCounter() {
-//     trackIndex++;
-//     console.log(trackIndex);
-//     console.log(stations[stationsIndex].songs.length);
-//     if (trackIndex > stations[stationsIndex].songs.length - 1) {
-//         trackIndex = 0;
-//     }
-// };
 
 
   
@@ -71,7 +77,9 @@ class Navbar extends Component {
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" id="log-out"href="" value={this.state.userLoggedIn} onChange={this.onUserLogin}>Logout</a>
+              <button className="button" id="log-out" onClick={this.switchUserLogin}>Logout</button>
+              {/* <button id="log-out" value={this.state.userLoggedIn} onClick={this.switchUserLogin}>Logout</button> */}
+              {/* <a class="nav-link" id="log-out"href="" value={this.state.userLoggedIn} onClick={this.onUserLogin}>Logout</a> */}
             </li>
             </ul>
         </div>
