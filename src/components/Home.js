@@ -23,7 +23,9 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="row">
-          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <img src={require("../assets/life-hunter.jpg")}
+          </div>
         </div>
       </div>
     </div>
