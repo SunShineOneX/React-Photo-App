@@ -65,5 +65,7 @@ body {
 }
 
 .profile-pic {
-    width:25vh;
+    padding-top: 5vh;
+    width: 20vw;
+    border-radius: 50%;
 }
