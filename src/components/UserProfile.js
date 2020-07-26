@@ -4,7 +4,7 @@ import React, { Component } from 'react'
     render() {
         return (
             <div className="container-fluid">
-                <img src={require("../assets/jeff2.jpeg")} />
+                <img className="profile-pic" src={require("../assets/jeff2.jpeg")} />
             </div>
         )
     }
