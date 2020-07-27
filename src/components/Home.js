@@ -21,12 +21,15 @@ function Home() {
           alt=""
         />
       </div>
+      <div class="container" id="home-photo-container">
       <div class="card" className="home-photo-card">
+        <p>Lakers</p>
   <img className="img-fluid" id="home-photo" src={require("../assets/deer-cute.jpg")} />
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p>Card title</p>
+    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
   </div>
 
 

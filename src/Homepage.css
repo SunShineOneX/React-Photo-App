@@ -124,8 +124,19 @@ body {
 }
 
 .home-photo-card {
-    padding-top: 3vh;
     width: 40vw;
     margin: auto;
     background-color: white;
+}
+
+.home-photo-card p {
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    padding: .5vh 0 0 .5vw;
+    margin: 0;
+}
+
+#home-photo-container {
+    margin: 3vh auto 5vh auto;
 }
