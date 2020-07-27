@@ -194,3 +194,7 @@ body {
       cursor: pointer;
       color: #909090;
   }
+
+  .time-since-posted {
+      color: #909090;
+  }

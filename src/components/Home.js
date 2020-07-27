@@ -38,6 +38,7 @@ function Home() {
     <div id ="likes-container">
     <p><strong>angel_lakersfan96</strong></p><p>lebron the goat</p>
     </div>
+    <p class="time-since-posted">posted 6 minutes ago</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
     <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="break the ice" aria-label="Recipient's username" />
