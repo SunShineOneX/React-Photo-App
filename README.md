@@ -1,3 +1,6 @@
+# Senna
+### Capture, edit, share.
+
 ![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
 
 
