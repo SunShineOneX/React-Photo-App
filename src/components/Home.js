@@ -30,7 +30,12 @@ function Home() {
     <p className="bold-home-p">pretty deer!</p>
     <p className="home-photo-comment">View all 219 comments</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-    <input type="text" className="input-comment" />
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" />
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Post</button>
+  </div>
+</div>
   </div>
   </div>
 

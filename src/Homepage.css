@@ -140,3 +140,9 @@ body {
 #home-photo-container {
     margin: 3vh auto 5vh auto;
 }
+
+.input-comment {
+    justify-content: left;
+    margin-left: 0;
+    padding-left: 0;
+}
