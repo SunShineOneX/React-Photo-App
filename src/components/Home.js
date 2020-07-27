@@ -207,7 +207,7 @@ function Home() {
           <img
             className="img-fluid"
             id="home-photo"
-            src={require("../assets/naturebacks-img1.jpg")}
+            src={require("../assets/naturebacks-img2.jpg")}
           />
           <div class="card-body">
             <div id="likes-container">
