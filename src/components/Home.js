@@ -29,8 +29,9 @@ function Home() {
         </div>
   <img className="img-fluid" id="home-photo" src={require("../assets/lakers2.jpg")} />
   <div class="card-body">
-  <i class="fas icon fa-bullseye fa-4x"></i>
-    <p>27,316 likes</p>
+    <div id ="likes-container">
+    <p>27,316 likes</p><i class="far icon fa-heart fa-2x"></i>
+    </div>
     <p className="bold-home-p">Lebron and Anthony Davis before the game winning play</p>
     <p className="home-photo-comment">View all 219 comments</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}

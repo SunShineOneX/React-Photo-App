@@ -174,11 +174,16 @@ body {
 
   .icon {
     color: #ef8172;
-    margin-bottom: 1rem;
+    padding-left: 1.5vw;
   }
   
   
   .icon:hover {
     color: #ff4c68;
-    transition: .7s;
+   
+  }
+
+  #likes-container {
+  display: flex;
+  flex-direction: row;
   }
