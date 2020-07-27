@@ -209,3 +209,7 @@ h1 {
 #naturebacks-logo {
     border-radius: 50%;
 }
+
+#account-posting {
+    cursor: pointer;
+}
