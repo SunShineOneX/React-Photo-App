@@ -26,9 +26,11 @@ function Home() {
         <p>Lakers</p>
   <img className="img-fluid" id="home-photo" src={require("../assets/deer-cute.jpg")} />
   <div class="card-body">
-    <p>Card title</p>
-    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p>27,316 likes</p>
+    <p className="bold-home-p">pretty deer!</p>
+    <p className="home-photo-comment">View all 219 comments</p>
+    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+    <input type="text" className="input-comment" />
   </div>
   </div>
 
