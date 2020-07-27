@@ -1,6 +1,7 @@
 import "../Homepage.css"
 import Home from "./Home";
-import UserProfile from "./UserProfile"
+import UserProfile from "./UserProfile";
+import LandingPage from "./LandingPage";
 import Bookmarks from "./Bookmarks";
 import Photogrid from "./Photogrid";
 import { BrowserRouter as Router, Switch, Route, Link } from  "react-router-dom";
@@ -59,7 +60,7 @@ switchUserLogin = (event) => {
       <Router>
       <div >
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="">Senna</a>
+            <a class="navbar-brand" href="/">Senna</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +68,7 @@ switchUserLogin = (event) => {
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link"><Link to="/">Home</Link></a>
+              <a class="nav-link"><Link to="/Home">Home</Link></a>
             </li>
             <li class="nav-item">
               <a class="nav-link"><Link to="/UserProfile">User Profile</Link></a>
@@ -89,7 +90,8 @@ switchUserLogin = (event) => {
         </div>
       </nav>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/Home" component={Home} />
           <Route path="/UserProfile" component={UserProfile} />
           <Route path="/Bookmarks" component={Bookmarks} />
           <Route path="/Photogrid" component={Photogrid} />
