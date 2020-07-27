@@ -1,7 +1,7 @@
-![Project Showcase](https://github.com/SunShineOneX/JayRadio2.0/blob/master/JayRadio.png?raw=true)
+![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
 
 
-This project was bootstrapped with [Create React App](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
