@@ -86,38 +86,38 @@ function Home() {
           <div id="username-logo">
             <img
               className="user-post-img"
-              src={require("../assets/lakers.gif")}
+              src={require("../assets/rockets.gif")}
             />
-            <p>Lakers</p>
+            <p>Rockets</p>
           </div>
           <img
             className="img-fluid"
             id="home-photo"
-            src={require("../assets/lakers2.jpg")}
+            src={require("../assets/russell-westbrook-rockets-1.jpg")}
           />
           <div class="card-body">
             <div id="likes-container">
               <p>
-                <strong>27,316 likes</strong>
+                <strong>9,651 likes</strong>
               </p>
               <i class="far icon fa-heart fa-2x"></i>
             </div>
             <p>
-              <strong>lalakers @lebronjames</strong>
+              <strong>rockets @russellwestbrook</strong>
             </p>
             <p className="bold-home-p">
-              Lebron and Anthony Davis before the game winning play
+              Russel after sinking the 3 to tie the game in OT.
             </p>
             <p className="home-photo-comment" id="home-photo-comment">
-              View all 219 comments
+              View all 119 comments
             </p>
             <div id="likes-container">
               <p>
-                <strong>angel_lakersfan96</strong>
+                <strong>okckd35</strong>
               </p>
-              <p>lebron the goat</p>
+              <p>still missing the okc dream teams. feelsbadman.</p>
             </div>
-            <p id="time-since-posted">posted 6 minutes ago</p>
+            <p id="time-since-posted">posted 30 seconds ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <div class="input-group mb-3">
               <input
@@ -142,39 +142,39 @@ function Home() {
         <div class="card" className="home-photo-card">
           <div id="username-logo">
             <img
-              className="user-post-img"
-              src={require("../assets/lakers.gif")}
+              className="user-post-img" id="naturebacks-logo"
+              src={require("../assets/natureback.png")}
             />
-            <p>Lakers</p>
+            <p>Naturebacks</p>
           </div>
           <img
             className="img-fluid"
             id="home-photo"
-            src={require("../assets/lakers2.jpg")}
+            src={require("../assets/naturebacks-img1.jpg")}
           />
           <div class="card-body">
             <div id="likes-container">
               <p>
-                <strong>27,316 likes</strong>
+                <strong>1471 likes</strong>
               </p>
               <i class="far icon fa-heart fa-2x"></i>
             </div>
             <p>
-              <strong>lalakers @lebronjames</strong>
+              <strong>naturebacks @xoxovalleygirl</strong>
             </p>
             <p className="bold-home-p">
-              Lebron and Anthony Davis before the game winning play
+               One of our biggest fans chillin on 4th of july weekend
             </p>
             <p className="home-photo-comment" id="home-photo-comment">
               View all 219 comments
             </p>
             <div id="likes-container">
               <p>
-                <strong>angel_lakersfan96</strong>
+                <strong>pykefrombelow</strong>
               </p>
-              <p>lebron the goat</p>
+              <p>i love this new shirt!</p>
             </div>
-            <p id="time-since-posted">posted 6 minutes ago</p>
+            <p id="time-since-posted">posted 3 minutes ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <div class="input-group mb-3">
               <input
@@ -200,27 +200,27 @@ function Home() {
           <div id="username-logo">
             <img
               className="user-post-img"
-              src={require("../assets/lakers.gif")}
+              src={require("../assets/natureback.png")}
             />
-            <p>Lakers</p>
+            <p>Naturebacks</p>
           </div>
           <img
             className="img-fluid"
             id="home-photo"
-            src={require("../assets/lakers2.jpg")}
+            src={require("../assets/naturebacks-img1.jpg")}
           />
           <div class="card-body">
             <div id="likes-container">
               <p>
-                <strong>27,316 likes</strong>
+                <strong>742 likes</strong>
               </p>
               <i class="far icon fa-heart fa-2x"></i>
             </div>
             <p>
-              <strong>lalakers @lebronjames</strong>
+              <strong>naturebacks @supercampergeorgia</strong>
             </p>
             <p className="bold-home-p">
-              Lebron and Anthony Davis before the game winning play
+              Loving the scenery with our newest shirt!
             </p>
             <p className="home-photo-comment" id="home-photo-comment">
               View all 219 comments

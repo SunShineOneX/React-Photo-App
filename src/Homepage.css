@@ -176,6 +176,8 @@ h1 {
   cursor: pointer;
 }
 
+/* ──────────────────────────────────────────────────────────────────────────────────── */
+
 .icon:hover {
   color: #ae43c0;
   transition: 0.7s;
@@ -196,13 +198,14 @@ h1 {
   font-size: 10px;
 }
 
-.btn-outline-secondary {
-}
-
 .btn-outline-secondary:hover,
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active {
   color: black;
   transition: 0.7s;
   background-color: #f3b5fa;
+}
+
+#naturebacks-logo {
+    border-radius: 50%;
 }
