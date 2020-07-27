@@ -1,215 +1,208 @@
 body {
-    background: url("./assets/senna-bg.png");
-    background: cover;
-    text-align: center;
-    color:white;
+  background: url("./assets/senna-bg.png");
+  background: cover;
+  text-align: center;
+  color: white;
 }
 
 .senna-logo {
-    text-align: center;
-    width: 40vw;
+  text-align: center;
+  width: 40vw;
 }
 
 #senna-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .get-started-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding-top: 2.5vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 2.5vh;
 }
 
-.get-started-link, h1 {
-    font-size: 60px;
-    padding-top: 0;
+.get-started-link,
+h1 {
+  font-size: 60px;
+  padding-top: 0;
 }
-
 
 .card-images {
-    width: 20vh;
-    height: 200px;
-    object-fit: contain;
+  width: 20vh;
+  height: 200px;
+  object-fit: contain;
 }
 
 #image-col {
-    display: flex;
-    align-items: center;
-    justify-content: stretch;
-
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
 }
 
-
 .profile-pic {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    width: 20vw;
-    border-radius: 50%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 20vw;
+  border-radius: 50%;
 }
 
 .profile-h1 {
-    font-size: 5em;
-    padding-top: 3vh;
-    font-family: 'Bungee', cursive;
+  font-size: 5em;
+  padding-top: 3vh;
+  font-family: "Bungee", cursive;
 }
 
 .username {
-    font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
 
 #card-deck {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #card-deck-id {
-    justify-content: center;
-    padding-top: 3vh;
-    margin-bottom: 0;
-    object-fit: cover;
+  justify-content: center;
+  padding-top: 3vh;
+  margin-bottom: 0;
+  object-fit: cover;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 25vh;
-    object-fit: cover;
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
 }
 
 .col-lg-4 {
-    padding: 0;
-    object-fit: cover;
-    width: 20vw;
-    padding-bottom: 2vh;
+  padding: 0;
+  object-fit: cover;
+  width: 20vw;
+  padding-bottom: 2vh;
 }
 
 .card-img-home {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
-    padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  padding-bottom: 5vh;
 }
 
 #home-img-card {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 20vw;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 20vw;
 }
 
 #card-deck-home {
-
 }
 
 .col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .home-photo-card {
-    width: 40vw;
-    margin: auto;
-    background-color: white;
+  width: 40vw;
+  margin: auto;
+  background-color: white;
 }
 
 .home-photo-card p {
-    color: black;
-    font-size: 14px;
-    text-align: left;
-    padding: .5vh 0 0 .5vw;
-    margin: 0;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  padding: 0.5vh 0 0 0.5vw;
+  margin: 0;
 }
 
 .card-body {
-    padding-bottom: 1vh;
+  padding-bottom: 1vh;
 }
 
 #home-photo-container {
-    margin: 3vh auto 5vh auto;
+  margin: 3vh auto 5vh auto;
 }
 
 .input-comment {
-    justify-content: left;
-    margin-left: 0;
-    padding-left: 0;
+  justify-content: left;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .input-group {
-    padding-top: 2vh;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  padding-top: 2vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .user-post-img {
-    width: 3vw;
+  width: 3vw;
 }
 
 #username-logo {
-    display: flex;
-    flex-direction: row;
-    padding: .5vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5vh;
 }
 
 .senna-like-button {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 }
- /*
+/*
   * ─── FONT AWESOME ───────────────────────────────────────────────────────────────
   */
-     
-  .icon {
-    color: #f4b5ef;
-    padding-left: 1.5vw;
-    cursor: pointer;
-  }
-  
-  
-  .icon:hover {
-    color: #ae43c0;
-    transition: .7s;
-   
-  }
 
-      
-  #likes-container {
+.icon {
+  color: #f4b5ef;
+  padding-left: 1.5vw;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ae43c0;
+  transition: 0.7s;
+}
+
+#likes-container {
   display: flex;
   flex-direction: row;
-  }
+}
 
-  #home-photo-comment {
-      cursor: pointer;
-      color: #909090;
-  }
+#home-photo-comment {
+  cursor: pointer;
+  color: #909090;
+}
 
-  #time-since-posted {
-      color: #909090;
-      font-size: 10px;
-  }
+#time-since-posted {
+  color: #909090;
+  font-size: 10px;
+}
 
-  .btn-outline-secondary {
+.btn-outline-secondary {
+}
 
-  }
-
-  .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
-    color: black;
-    transition: .7s;
-    background-color:#f3b5fa;
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active {
+  color: black;
+  transition: 0.7s;
+  background-color: #f3b5fa;
 }
