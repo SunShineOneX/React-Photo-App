@@ -23,11 +23,15 @@ function Home() {
       </div>
       <div class="container" id="home-photo-container">
       <div class="card" className="home-photo-card">
+        <div id="username-logo">
+      <img className="user-post-img" src={require("../assets/lakers.gif")} />
         <p>Lakers</p>
-  <img className="img-fluid" id="home-photo" src={require("../assets/deer-cute.jpg")} />
+        </div>
+  <img className="img-fluid" id="home-photo" src={require("../assets/lakers2.jpg")} />
   <div class="card-body">
+  <i class="fas icon fa-bullseye fa-4x"></i>
     <p>27,316 likes</p>
-    <p className="bold-home-p">pretty deer!</p>
+    <p className="bold-home-p">Lebron and Anthony Davis before the game winning play</p>
     <p className="home-photo-comment">View all 219 comments</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
     <div class="input-group mb-3">

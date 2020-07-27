@@ -156,3 +156,29 @@ body {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
+.user-post-img {
+    width: 3vw;
+}
+
+#username-logo {
+    display: flex;
+    flex-direction: row;
+    padding: .5vh;
+}
+
+.senna-like-button {
+    display: flex;
+    justify-content: left;
+}
+
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .icon:hover {
+    color: #ff4c68;
+    transition: .7s;
+  }
