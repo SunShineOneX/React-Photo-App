@@ -32,6 +32,7 @@ function Home() {
     <div id ="likes-container">
     <p><strong>27,316 likes</strong></p><i class="far icon fa-heart fa-2x"></i>
     </div>
+    <p><strong>lalakers @lebronjames</strong></p>
     <p className="bold-home-p">Lebron and Anthony Davis before the game winning play</p>
     <p className="home-photo-comment">View all 219 comments</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
