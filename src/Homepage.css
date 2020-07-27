@@ -190,7 +190,7 @@ body {
   flex-direction: row;
   }
 
-  .home-photo-comment {
+  #home-photo-comment {
       cursor: pointer;
       color: #909090;
   }

@@ -34,7 +34,10 @@ function Home() {
     </div>
     <p><strong>lalakers @lebronjames</strong></p>
     <p className="bold-home-p">Lebron and Anthony Davis before the game winning play</p>
-    <p className="home-photo-comment">View all 219 comments</p>
+    <p className="home-photo-comment" id="home-photo-comment">View all 219 comments</p>
+    <div id ="likes-container">
+    <p><strong>angel_lakersfan96</strong></p><p>lebron the goat</p>
+    </div>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
     <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" />
