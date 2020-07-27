@@ -13,7 +13,7 @@ Share photos, Bookmark photos you like, Create your own photo gallery and much m
 PerScholas Software Engineering program
 
 ## Technologies Used
-ReactJS, bootstrap
+ReactJS, React Router DOM, bootstrap
 
 ## Challenges
 There were plenty of styling hurdles to get over during the creation of Senna to create a social media application with a genuine look and feel.
