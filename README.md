@@ -1,10 +1,28 @@
 # Senna
 
-## Senna is a Photo sharing app created with React.
+![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
+
+## Senna is a Photo sharing app I created created with React.
+
+<!-- Link -->
 
 ### Capture, edit, share.
 
-![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
+## Features
+Share photos, Bookmark photos you like, Create your own photo gallery and much more.
+
+## Motivation
+PerScholas Software Engineering program
+
+## Technologies Used
+ReactJS, bootstrap
+
+## Challenges
+There were plenty of styling hurdles to get over during the creation of Senna to create a social media application with a genuine look and feel.
+Manipulating state for components and being able to update the bookmarked section in real-time.
+
+## Credits
+-Jeffrey Rockenbach https://github.com/SunShineOneX
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
