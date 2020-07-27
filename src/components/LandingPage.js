@@ -1,16 +1,6 @@
 import React, { Component } from "react";
 import "../Homepage.css";
-import {
-  BrowserRouter as Router,
-  Redirect,
-  Switch,
-  Route,
-} from "react-router-dom";
-import { Link } from "react-router-dom";
-import Photogrid from "./Photogrid";
-import UserJeff from "./UserJeff";
-import UserSteph from "./UserSteph";
-
+// This component is only rendering the brand logos on the home page
 class LandingPage extends Component {
 
   

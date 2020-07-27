@@ -1,97 +1,109 @@
 import React, { Component } from "react";
 import "../Homepage.css";
 
-class Home extends Component{
-    constructor() {
-      super();
-      this.state = {
-        img1Starred: false,
-        img2Starred: false,
-        img3Starred: false,
-        img4Starred: false,
-        img5Starred: false,
-        img1Index: 0,
-        img2Index: 0,
-        img3Index: 0,
-        img4Index: 0,
-        img5Index: 0,
-      };
-    }
-  
-    img1Bookmarked = (event) => {
-      if (this.state.img1Index === 0) {
-        event.preventDefault()
-        this.setState({
-         img1Starred: true,
-         img1Index: 1,
-        })
-      } else if (this.state.img1Index === 1)
-        this.setState({
+// This component tracks states of which images were bookmarked or not by the user. Allowing for the state to be shared to other components
+// so the users bookmarked photos can be rendered in their bookmarked page
+// I use an index to switch back and forth between whether the image is bookmarked or not.
+// 0 Means it has not been bookmarked, 1 means it has been bookmarked.
+class Home extends Component {
+  constructor() {
+    super();
+    this.state = {
+      img1Index: 0,
+      img2Index: 0,
+      img3Index: 0,
+      img4Index: 0,
+      img5Index: 0,
+      bookmarks: [
+        {
           img1Starred: false,
-          img1Index: 0,
-        })
-      }
-  
-      img2Bookmarked = (event) => {
-        if (this.state.img2Index === 0) {
-          event.preventDefault()
-          this.setState({
-           img2Starred: true,
-           img2Index: 1,
-          })
-        } else if (this.state.img2Index === 1)
-          this.setState({
-            img2Starred: false,
-            img2Index: 0,
-          })
-        }
-  
-        img3Bookmarked = (event) => {
-          if (this.state.img3Index === 0) {
-            event.preventDefault()
-            this.setState({
-             img3Starred: true,
-             img3Index: 1,
-            })
-          } else if (this.state.img3Index === 1)
-            this.setState({
-              img3Starred: false,
-              img3Index: 0,
-            })
-          }
-  
-          img4Bookmarked = (event) => {
-            if (this.state.img4Index === 0) {
-              event.preventDefault()
-              this.setState({
-               img4Starred: true,
-               img4Index: 1,
-              })
-            } else if (this.state.img4Index === 1)
-              this.setState({
-                img4Starred: false,
-                img4Index: 0,
-              })
-            }
-  
-            img5Bookmarked = (event) => {
-              if (this.state.img5Index === 0) {
-                event.preventDefault()
-                this.setState({
-                 img5Starred: true,
-                 img5Index: 1,
-                })
-              } else if (this.state.img5Index === 1)
-                this.setState({
-                  img5Starred: false,
-                  img5Index: 0,
-                })
-              }
-        render() {
-            return (
-                <div>
-                    <div className="container-fluid">
-                      <div className="container-fluid" id="senna-container">
+          img2Starred: false,
+          img3Starred: false,
+          img4Starred: false,
+          img5Starred: false,
+        },
+      ],
+    };
+  }
+
+  // Below are all of the functions that manipulate the state based on the users clicks
+  img1Bookmarked = (event) => {
+    if (this.state.img1Index === 0) {
+      event.preventDefault();
+      this.setState({
+       img1Starred: true,
+        img1Index: 1,
+      });
+    } else if (this.state.img1Index === 1)
+      this.setState({
+        img1Starred: false,
+        img1Index: 0,
+      });
+  };
+
+  img2Bookmarked = (event) => {
+    if (this.state.img2Index === 0) {
+      event.preventDefault();
+      this.setState({
+        img2Starred: true,
+        img2Index: 1,
+      });
+    } else if (this.state.img2Index === 1)
+      this.setState({
+        img2Starred: false,
+        img2Index: 0,
+      });
+  };
+
+  img3Bookmarked = (event) => {
+    if (this.state.img3Index === 0) {
+      event.preventDefault();
+      this.setState({
+        img3Starred: true,
+        img3Index: 1,
+      });
+    } else if (this.state.img3Index === 1)
+      this.setState({
+        img3Starred: false,
+        img3Index: 0,
+      });
+  };
+
+  img4Bookmarked = (event) => {
+    if (this.state.img4Index === 0) {
+      event.preventDefault();
+      this.setState({
+        img4Starred: true,
+        img4Index: 1,
+      });
+    } else if (this.state.img4Index === 1)
+      this.setState({
+        img4Starred: false,
+        img4Index: 0,
+      });
+  };
+
+  img5Bookmarked = (event) => {
+    if (this.state.img5Index === 0) {
+      event.preventDefault();
+      this.setState({
+        img5Starred: true,
+        img5Index: 1,
+      });
+    } else if (this.state.img5Index === 1)
+      this.setState({
+        img5Starred: false,
+        img5Index: 0,
+      });
+  };
+
+  // Below is the brand logos, followed by 5 custom styled and created Senna "posts".
+  // Each one is essentially a bootstrap card.
+  render() {
+    return (
+      <div>
+        <div className="container-fluid">
+          <div className="container-fluid" id="senna-container">
             <img
               src={require("../assets/senna-logo-white-transparent-cropped.png")}
               className="senna-logo"
@@ -120,7 +132,10 @@ class Home extends Component{
                   <p>
                     <strong>27,316 likes</strong>
                   </p>
-                  <i class="far icon fa-heart fa-2x" onClick={this.img1Bookmarked}></i>
+                  <i
+                    class="far icon fa-heart fa-2x"
+                    onClick={this.img1Bookmarked}
+                  ></i>
                 </div>
                 <p>
                   <strong>lalakers @lebronjames</strong>
@@ -177,7 +192,10 @@ class Home extends Component{
                   <p>
                     <strong>9,651 likes</strong>
                   </p>
-                  <i class="far icon fa-heart fa-2x"  onClick={this.img2Bookmarked}></i>
+                  <i
+                    class="far icon fa-heart fa-2x"
+                    onClick={this.img2Bookmarked}
+                  ></i>
                 </div>
                 <p>
                   <strong>rockets @russellwestbrook</strong>
@@ -235,7 +253,10 @@ class Home extends Component{
                   <p>
                     <strong>1471 likes</strong>
                   </p>
-                  <i class="far icon fa-heart fa-2x"  onClick={this.img3Bookmarked}></i>
+                  <i
+                    class="far icon fa-heart fa-2x"
+                    onClick={this.img3Bookmarked}
+                  ></i>
                 </div>
                 <p>
                   <strong>naturebacks @xoxovalleygirl</strong>
@@ -292,7 +313,10 @@ class Home extends Component{
                   <p>
                     <strong>742 likes</strong>
                   </p>
-                  <i class="far icon fa-heart fa-2x"  onClick={this.img4Bookmarked}></i>
+                  <i
+                    class="far icon fa-heart fa-2x"
+                    onClick={this.img4Bookmarked}
+                  ></i>
                 </div>
                 <p>
                   <strong>naturebacks @supercampergeorgia</strong>
@@ -350,7 +374,10 @@ class Home extends Component{
                   <p>
                     <strong>3,632 likes</strong>
                   </p>
-                  <i class="far icon fa-heart fa-2x"  onClick={this.img5Bookmarked}></i>
+                  <i
+                    class="far icon fa-heart fa-2x"
+                    onClick={this.img5Bookmarked}
+                  ></i>
                 </div>
                 <p>
                   <strong>celtics @kembawalker</strong>

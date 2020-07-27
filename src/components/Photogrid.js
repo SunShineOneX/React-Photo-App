@@ -1,5 +1,7 @@
 import React from 'react'
 import "../Homepage.css";
+
+// Test component
 function Photogrid() {
     return (
         <div>

@@ -10,10 +10,11 @@ import React, { Component } from 'react';
 let switchLogin = document.getElementsByClassName("button");
 let log1 = "Logout";
 let log2 = "Login";
-// let logoutIndex = 0;
+
 
 class Navbar extends Component {
 
+  // Utilizing state to keep track of when the user is logged in or out here
   constructor() {
     super();
       this.state = {
@@ -34,7 +35,7 @@ class Navbar extends Component {
   //   // }
     
   // }
-
+// A function that updates onclick whether the user is logged in or out
 switchUserLogin = (event) => {
   if (this.state.logoutIndex === 0) {
     event.preventDefault()
@@ -53,7 +54,8 @@ switchUserLogin = (event) => {
 
   
 
-
+// Below is the entire navbar with the BrowserRouter as Routers, Switch, and links and routes.
+// This allows for a multipage aesthetic.
   
   render() {
     return (

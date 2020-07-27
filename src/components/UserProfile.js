@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+// Component dedicated to users profile featuring a card deck with some of the users photos
+
 class UserProfile extends Component {
   render() {
     return (
