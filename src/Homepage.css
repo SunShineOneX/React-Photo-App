@@ -171,20 +171,24 @@ body {
     display: flex;
     justify-content: left;
 }
-
+ /*
+  * ─── FONT AWESOME ───────────────────────────────────────────────────────────────
+  */
+     
   .icon {
-    color: #ef8172;
+    color: #f4b5ef;
     padding-left: 1.5vw;
     cursor: pointer;
   }
   
   
   .icon:hover {
-    color: #f4b5ef;
+    color: #ae43c0;
     transition: .7s;
    
   }
 
+      
   #likes-container {
   display: flex;
   flex-direction: row;
@@ -195,6 +199,17 @@ body {
       color: #909090;
   }
 
-  .time-since-posted {
+  #time-since-posted {
       color: #909090;
+      font-size: 10px;
   }
+
+  .btn-outline-secondary {
+
+  }
+
+  .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
+    color: black;
+    transition: .7s;
+    background-color:#f3b5fa;
+}
