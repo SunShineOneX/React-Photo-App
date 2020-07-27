@@ -91,6 +91,13 @@ class Home extends Component{
             return (
                 <div>
                     <div className="container-fluid">
+                    <div className="container-fluid" id="senna-container">
+            <img
+              src={require("../assets/senna-logo-white-transparent-cropped.png")}
+              className="senna-logo"
+              alt=""
+            />
+          </div>
 
           {/* First post */}
 
