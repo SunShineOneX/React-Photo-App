@@ -6,8 +6,9 @@ import Photogrid from "./Photogrid";
 import { BrowserRouter as Router, Switch, Route, Link } from  "react-router-dom";
 import React, { Component } from 'react';
 
-let switchLogin = document.getElementById("log-out");
-let logout = "login"
+let switchLogin = document.getElementsByClassName("button");
+let log1 = "Logout";
+let log2 = "Login";
 // let logoutIndex = 0;
 
 class Navbar extends Component {
@@ -40,13 +41,16 @@ switchUserLogin = (event) => {
      userLoggedIn: false,
      logoutIndex: 1
     })
+    switchLogin.innerHTML = {log1};
   } else if (this.state.logoutIndex === 1)
     this.setState({
       userLoggedIn: true,
       logoutIndex: 0,
     })
+    switchLogin.textContent = {log2};
   }
 
+  
 
 
   
