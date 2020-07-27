@@ -60,7 +60,7 @@ function Home() {
               </p>
               <p>lebron the goat</p>
             </div>
-            <p id="time-since-posted">posted 6 minutes ago</p>
+            <p id="time-since-posted">posted 30 seconds ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <div class="input-group mb-3">
               <input
@@ -117,7 +117,7 @@ function Home() {
               </p>
               <p>still missing the okc dream teams. feelsbadman.</p>
             </div>
-            <p id="time-since-posted">posted 30 seconds ago</p>
+            <p id="time-since-posted">posted 2 minutes ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <div class="input-group mb-3">
               <input
@@ -220,18 +220,18 @@ function Home() {
               <strong>naturebacks @supercampergeorgia</strong>
             </p>
             <p className="bold-home-p">
-              Loving the scenery with our newest shirt!
+              Glad to see you two enjoying the sunrise. Check your dm's for a free shirt on us :)
             </p>
             <p className="home-photo-comment" id="home-photo-comment">
-              View all 219 comments
+              View all 48 comments
             </p>
             <div id="likes-container">
               <p>
-                <strong>angel_lakersfan96</strong>
+                <strong>steveopartyguy98</strong>
               </p>
-              <p>lebron the goat</p>
+              <p>damn what a view!!</p>
             </div>
-            <p id="time-since-posted">posted 6 minutes ago</p>
+            <p id="time-since-posted">posted 5 minutes ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <div class="input-group mb-3">
               <input
@@ -257,36 +257,36 @@ function Home() {
           <div id="username-logo">
             <img
               className="user-post-img"
-              src={require("../assets/lakers.gif")}
+              src={require("../assets/celtics.gif")}
             />
-            <p>Lakers</p>
+            <p>Celtics</p>
           </div>
           <img
             className="img-fluid"
             id="home-photo"
-            src={require("../assets/lakers2.jpg")}
+            src={require("../assets/kemba.webp")}
           />
           <div class="card-body">
             <div id="likes-container">
               <p>
-                <strong>27,316 likes</strong>
+                <strong>3,632 likes</strong>
               </p>
               <i class="far icon fa-heart fa-2x"></i>
             </div>
             <p>
-              <strong>lalakers @lebronjames</strong>
+              <strong>celtics @kembawalker</strong>
             </p>
             <p className="bold-home-p">
-              Lebron and Anthony Davis before the game winning play
+              Kemba Walker after sinking the shot with seconds left in the 4th to tie the game
             </p>
             <p className="home-photo-comment" id="home-photo-comment">
-              View all 219 comments
+              View all 141 comments
             </p>
             <div id="likes-container">
               <p>
-                <strong>angel_lakersfan96</strong>
+                <strong>kingofthetown84</strong>
               </p>
-              <p>lebron the goat</p>
+              <p>thank god for kemba</p>
             </div>
             <p id="time-since-posted">posted 6 minutes ago</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
