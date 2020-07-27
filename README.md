@@ -3,10 +3,8 @@
 ![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
 
 ## Senna is a Photo sharing app I created created with React.
-
+Capture, edit, share.
 <!-- Link -->
-
-### Capture, edit, share.
 
 ## Features
 Share photos, Bookmark photos you like, Create your own photo gallery and much more.
