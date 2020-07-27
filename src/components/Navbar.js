@@ -82,6 +82,10 @@ switchUserLogin = (event) => {
           </ul>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+            <img
+                  className="senna-navbar-user-photo"
+                  src={require("../assets/jeff2-copy.jpeg")}
+                />
               <button className="button" id="log-out" onClick={this.switchUserLogin}>Logout</button>
               {/* <button id="log-out" value={this.state.userLoggedIn} onClick={this.switchUserLogin}>Logout</button> */}
               {/* <a class="nav-link" id="log-out"href="" value={this.state.userLoggedIn} onClick={this.onUserLogin}>Logout</a> */}

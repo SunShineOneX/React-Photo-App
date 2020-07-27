@@ -213,3 +213,10 @@ h1 {
 #account-posting {
     cursor: pointer;
 }
+
+.senna-navbar-user-photo {
+  width: 5vw;
+  border-radius: 50%;
+  padding-right: 1.5vw;
+  cursor: pointer;
+}
