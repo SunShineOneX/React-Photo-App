@@ -1,4 +1,7 @@
 # Senna
+
+## Senna is a Photo sharing app created with React.
+
 ### Capture, edit, share.
 
 ![Project Showcase](https://github.com/SunShineOneX/React-Photo-App/blob/master/src/assets/senna-readme.png?raw=true)
