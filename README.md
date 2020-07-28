@@ -6,7 +6,6 @@
 
 ## Senna is a Photo sharing app I created created with React.
 Capture, edit, share.
-<!-- Link -->
 
 ## Features
 Share photos, Bookmark photos you like, Create your own photo gallery and much more.
