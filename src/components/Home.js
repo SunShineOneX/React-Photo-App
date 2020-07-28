@@ -26,6 +26,8 @@ class Home extends Component {
     };
   }
 
+  
+
   // Below are all of the functions that manipulate the state based on the users clicks
   img1Bookmarked = (event) => {
     if (this.state.img1Index === 0) {
